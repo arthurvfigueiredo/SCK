@@ -1,0 +1,279 @@
+
+equipe1 = []
+equipe2 = []
+equipe3 = []
+equipe4 = []
+equipe5 = []
+equipe6 = []
+equipe7 = []
+
+pilotos_a = ["Schumacher","Senna","Zanardi","Norris","Verstappen","Maldonado","Kobayashi"]
+pilotos_b = ["Lamy", "Hamilton", "Andretti", "Power", "Ascari", "Mansell", "Fittipaldi"]
+pilotos_c = ["Lafitte", "Perez", "Irvine", "Hunt", "Ricciardo", "Patrese", "Raikkonen"]
+pilotos_d = ["Coulthard", "Hill", "Fullerton", "Russel", "Stewart", "Vettel", "Fangio"]
+
+print("Vamos iniciar o sorteio dos pilotos e equipes do VII SCK, por conta da pandemia, será por aqui dessa vez ;)")
+print("\nPrimeiros sortearemos os pilotos A para cada uma das 7 equipes, depois os pilotos B, C e até o D.")
+print("\nConfira a lista de pilotos")
+print("A:",pilotos_a)
+print("B:",pilotos_b)
+print("C:",pilotos_c)
+print("D:",pilotos_d)
+
+input("pressione para continuar")
+
+a1 = random.choice(pilotos_a)
+print("\nPiloto sorteado:",a1)
+equipe1.insert(1,input("escreva o nome do piloto sorteado:"))
+print("\nEquipe 1:",equipe1)
+pilotos_a.remove(a1)
+print ("\nPilotos A restantes:", pilotos_a)
+
+a2 = random.choice(pilotos_a)
+print("\nPiloto sorteado:",a2)
+equipe2.insert(1,input("escreva o nome do piloto sorteado:"))
+print("\nEquipe 2:",equipe2)
+pilotos_a.remove(a2)
+print ("\nPilotos A restantes:", pilotos_a)
+
+a3 = random.choice(pilotos_a)
+print("\nPiloto sorteado:",a3)
+equipe3.insert(1,input("escreva o nome do piloto sorteado:"))
+print("\nEquipe 3:",equipe3)
+pilotos_a.remove(a3)
+print ("\nPilotos A restantes:", pilotos_a)
+
+a4 = random.choice(pilotos_a)
+print("\nPiloto sorteado:",a4)
+equipe4.insert(1,input("escreva o nome do piloto sorteado:"))
+print("\nEquipe 4:",equipe4)
+pilotos_a.remove(a4)
+print ("\nPilotos A restantes:", pilotos_a)
+
+a5 = random.choice(pilotos_a)
+print("\nPiloto sorteado:",a5)
+equipe5.insert(1,input("escreva o nome do piloto sorteado:"))
+print("\nEquipe 5:",equipe5)
+pilotos_a.remove(a5)
+print ("\nPilotos A restantes:", pilotos_a)
+
+a6 = random.choice(pilotos_a)
+print("\nPiloto sorteado:",a6)
+equipe6.insert(1,input("escreva o nome do piloto sorteado:"))
+print("\nEquipe 6:",equipe6)
+pilotos_a.remove(a6)
+print ("\nPilotos A restantes:", pilotos_a)
+
+a7 = random.choice(pilotos_a)
+print("\nPiloto sorteado:",a7)
+equipe7.insert(1,input("escreva o nome do piloto sorteado:"))
+print("\nEquipe 7:",equipe7)
+pilotos_a.remove(a7)
+print ("\nPilotos A restantes:", pilotos_a)
+
+
+print("\nTerminado os pilotos A, vamos ver como ficou")
+
+print("\nEquipe 1:",equipe1)
+print("\nEquipe 2:",equipe2)
+print("\nEquipe 3:",equipe3)
+print("\nEquipe 4:",equipe4)
+print("\nEquipe 5:",equipe5)
+print("\nEquipe 6:",equipe6)
+print("\nEquipe 7:",equipe7)
+
+print("\nAgora vamos ao sorteio dos pilotos B")
+
+input("pressione para continuar")
+
+b1 = random.choice(pilotos_b)
+print("\nPiloto sorteado:",b1)
+equipe1.insert(2,input("escreva o nome do piloto sorteado:"))
+print("\nEquipe 1:",equipe1)
+pilotos_b.remove(b1)
+print ("\nPilotos B restantes:", pilotos_b)
+
+b2 = random.choice(pilotos_b)
+print("\nPiloto sorteado:",b2)
+equipe2.insert(2,input("escreva o nome do piloto sorteado:"))
+print("\nEquipe 2:",equipe2)
+pilotos_b.remove(b2)
+print ("\nPilotos B restantes:", pilotos_b)
+
+b3 = random.choice(pilotos_b)
+print("\nPiloto sorteado:",b3)
+equipe3.insert(2,input("escreva o nome do piloto sorteado:"))
+print("\nEquipe 3:",equipe3)
+pilotos_b.remove(b3)
+print ("\nPilotos B restantes:", pilotos_b)
+
+b4 = random.choice(pilotos_b)
+print("\nPiloto sorteado:",b4)
+equipe4.insert(2,input("escreva o nome do piloto sorteado:"))
+print("\nEquipe 4:",equipe4)
+pilotos_b.remove(b4)
+print ("\nPilotos B restantes:", pilotos_b)
+
+b5 = random.choice(pilotos_b)
+print("\nPiloto sorteado:",b5)
+equipe5.insert(2,input("escreva o nome do piloto sorteado:"))
+print("\nEquipe 5:",equipe5)
+pilotos_b.remove(b5)
+print ("\nPilotos B restantes:", pilotos_b)
+
+b6 = random.choice(pilotos_b)
+print("\nPiloto sorteado:",b6)
+equipe6.insert(2,input("escreva o nome do piloto sorteado:"))
+print("\nEquipe 6:",equipe6)
+pilotos_b.remove(b6)
+print ("\nPilotos B restantes:", pilotos_b)
+
+b7 = random.choice(pilotos_b)
+print("\nPiloto sorteado:",b7)
+equipe7.insert(2,input("escreva o nome do piloto sorteado:"))
+print("\nEquipe 7:",equipe7)
+pilotos_b.remove(b7)
+print ("\nPilotos B restantes:", pilotos_b)
+
+print("\nTerminado os pilotos B, vamos ver como ficou")
+
+print("\nEquipe 1:",equipe1)
+print("\nEquipe 2:",equipe2)
+print("\nEquipe 3:",equipe3)
+print("\nEquipe 4:",equipe4)
+print("\nEquipe 5:",equipe5)
+print("\nEquipe 6:",equipe6)
+print("\nEquipe 7:",equipe7)
+
+print("\nAgora vamos ao sorteio dos pilotos C")
+
+input("pressione para continuar")
+
+
+c1 = random.choice(pilotos_c)
+print("\nPiloto sorteado:",c1)
+equipe1.insert(3,input("escreva o nome do piloto sorteado:"))
+print("\nEquipe 1:",equipe1)
+pilotos_c.remove(c1)
+print ("\nPilotos C restantes:", pilotos_c)
+
+c2 = random.choice(pilotos_c)
+print("\nPiloto sorteado:",c2)
+equipe2.insert(2,input("escreva o nome do piloto sorteado:"))
+print("\nEquipe 2:",equipe2)
+pilotos_c.remove(c2)
+print ("\nPilotos C restantes:", pilotos_c)
+
+c3 = random.choice(pilotos_c)
+print("\nPiloto sorteado:",c3)
+equipe3.insert(2,input("escreva o nome do piloto sorteado:"))
+print("\nEquipe 3:",equipe3)
+pilotos_c.remove(c3)
+print ("\nPilotos C restantes:", pilotos_c)
+
+c4 = random.choice(pilotos_c)
+print("\nPiloto sorteado:",c4)
+equipe4.insert(2,input("escreva o nome do piloto sorteado:"))
+print("\nEquipe 4:",equipe4)
+pilotos_c.remove(c4)
+print ("\nPilotos C restantes:", pilotos_c)
+
+c5 = random.choice(pilotos_c)
+print("\nPiloto sorteado:",c5)
+equipe5.insert(2,input("escreva o nome do piloto sorteado:"))
+print("\nEquipe 5:",equipe5)
+pilotos_c.remove(c5)
+print ("\nPilotos C restantes:", pilotos_c)
+
+c6 = random.choice(pilotos_c)
+print("\nPiloto sorteado:",c6)
+equipe6.insert(2,input("escreva o nome do piloto sorteado:"))
+print("\nEquipe 6:",equipe6)
+pilotos_c.remove(c6)
+print ("\nPilotos C restantes:", pilotos_c)
+
+c7 = random.choice(pilotos_c)
+print("\nPiloto sorteado:",c7)
+equipe7.insert(2,input("escreva o nome do piloto sorteado:"))
+print("\nEquipe 7:",equipe7)
+pilotos_c.remove(c7)
+print ("\nPilotos C restantes:", pilotos_c)
+
+print("\nTerminado os pilotos C, vamos ver como ficou")
+
+print("\nEquipe 1:",equipe1)
+print("\nEquipe 2:",equipe2)
+print("\nEquipe 3:",equipe3)
+print("\nEquipe 4:",equipe4)
+print("\nEquipe 5:",equipe5)
+print("\nEquipe 6:",equipe6)
+print("\nEquipe 7:",equipe7)
+
+print("\nAgora vamos ao sorteio dos pilotos D")
+
+
+input("pressione para continuar")
+
+
+d1 = random.choice(pilotos_d)
+print("\nPiloto sorteado:",d1)
+equipe1.insert(3,input("escreva o nome do piloto sorteado:"))
+print("\nEquipe 1:",equipe1)
+pilotos_d.remove(d1)
+print ("\nPilotos D restantes:", pilotos_d)
+
+d2 = random.choice(pilotos_d)
+print("\nPiloto sorteado:",d2)
+equipe2.insert(2,input("escreva o nome do piloto sorteado:"))
+print("\nEquipe 2:",equipe2)
+pilotos_d.remove(d2)
+print ("\nPilotos D restantes:", pilotos_d)
+
+d3 = random.choice(pilotos_d)
+print("\nPiloto sorteado:",d3)
+equipe3.insert(2,input("escreva o nome do piloto sorteado:"))
+print("\nEquipe 3:",equipe3)
+pilotos_d.remove(d3)
+print ("\nPilotos D restantes:", pilotos_d)
+
+d4 = random.choice(pilotos_d)
+print("\nPiloto sorteado:",d4)
+equipe4.insert(2,input("escreva o nome do piloto sorteado:"))
+print("\nEquipe 4:",equipe4)
+pilotos_d.remove(d4)
+print ("\nPilotos D restantes:", pilotos_d)
+
+d5 = random.choice(pilotos_d)
+print("\nPiloto sorteado:",d5)
+equipe5.insert(2,input("escreva o nome do piloto sorteado:"))
+print("\nEquipe 5:",equipe5)
+pilotos_d.remove(d5)
+print ("\nPilotos D restantes:", pilotos_d)
+
+d6 = random.choice(pilotos_d)
+print("\nPiloto sorteado:",d6)
+equipe6.insert(2,input("escreva o nome do piloto sorteado:"))
+print("\nEquipe 6:",equipe6)
+pilotos_d.remove(d6)
+print ("\nPilotos D restantes:", pilotos_d)
+
+d7 = random.choice(pilotos_d)
+print("\nPiloto sorteado:",d7)
+equipe7.insert(2,input("escreva o nome do piloto sorteado:"))
+print("\nEquipe 7:",equipe7)
+pilotos_d.remove(d7)
+print ("\nPilotos C restantes:", pilotos_d)
+
+print("\nTerminado os pilotos D, agora temos todas as equipes formadas! então está dada a largada para o nosso SCK, vamos ver como ficou:")
+
+print("\nEquipe 1:",equipe1)
+print("\nEquipe 2:",equipe2)
+print("\nEquipe 3:",equipe3)
+print("\nEquipe 4:",equipe4)
+print("\nEquipe 5:",equipe5)
+print("\nEquipe 6:",equipe6)
+print("\nEquipe 7:",equipe7)
+
+input("pressione para continuar")
+
+print("\nNos vemos nas prévias e não se esqueçam de definir o nome das suas equipes ;)")
